@@ -1,0 +1,292 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+        <mj-text padding="0px" align="center" font-size="14px" line-height="18px" font-weight="400" color="#ffffff" font-family="SamsungOne, arial, sans-serif" />
+            <mj-image padding="0px" />
+            <mj-section padding="0px" background-color="#000001" />
+            <mj-button align="center" font-family="SamsungOne, arial, sans-serif" font-weight="700" background-color="transparent" text-transform="uppercase" border-radius="25px" color="#ffffff" padding="0px" width="212px" text-align="center" font-size="14px" line-height="22px" border="1px solid #ffffff"  />
+
+            <mj-class name="h-2" color="#ffffff" font-family="Samsung Sharp Sans, arial, sans-serif" font-size="18px" line-height="22px" font-weight="700" />
+            <mj-class name="h-1" color="#ffffff" font-family="Samsung Sharp Sans, arial, sans-serif" font-size="24px" line-height="32px" font-weight="700" />
+            <mj-class name="footer-text" color="#999999" font-weight="400" font-size="11px" line-height="16px" font-family="SamsungOne, arial, sans-serif"  />
+        </mj-attributes>
+        <mj-style>
+
+         a {
+            text-decoration: none;
+            color: #ffffff;
+         }
+
+         .btn > table > tbody > tr > td:hover {
+            background-color: #ffffff !important;
+         }
+
+         .btn > table > tbody > tr > td:hover > a {
+            color: #000001 !important;
+         }
+
+            @font-face {
+          font-family: 'SamsungOne';
+          font-style: normal;
+          font-weight: 400;
+          src: local('SamsungOne-400');
+          src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.eot);
+          src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.eot?#iefix) format("embedded-opentype"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.woff2) format("woff2"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-400.woff) format("woff");
+        }
+        @font-face {
+          font-family: 'SamsungOne';
+          font-style: normal;
+          font-weight: 700;
+          src: local('SamsungOne-700');
+          src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.eot);
+          src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.eot?#iefix) format("embedded-opentype"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.woff2) format("woff2"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungOne-700.woff) format("woff");
+        }
+        @font-face {
+          font-family: 'Samsung Sharp Sans';
+          font-style: normal;
+          font-weight: 700;
+          src: local('Samsung Sharp Sans Bold');
+          src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.eot);
+          src: url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.eot?#iefix) format("embedded-opentype"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.woff2) format("woff2"), url(https://cdn.samsung.com/etc/designs/smg/global/fonts/SamsungSharpSansBd.woff) format("woff");
+        }
+
+        @media(max-width: 616px) {
+            .column-300 {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .icons-padding > table > tbody > tr > td {
+                padding-left: 0px !important;
+            }
+
+            .icons {
+                padding-bottom: 25px !important;
+            }
+        }
+
+        @media(max-width: 480px) {
+            .footer-nowrap span {
+                white-space: normal !important;
+            }
+
+            .footer-text > div {
+                text-align: center !important;
+            }
+
+            .text-center > div {
+                text-align: center !important;
+            }
+
+            .text-center {
+                text-align: -webkit-center !important;
+            }
+
+            .buy-now {
+                padding-bottom: 15px !important;
+            }
+        }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section>
+            <mj-column >
+                <mj-text font-size="12px" padding-left="20px" padding-right="20px" padding-top="10px" padding-bottom="5px">
+                    Take a closer look at the innovative Galaxy S22 Ultra
+                </mj-text>
+                <mj-text font-size="12px" padding-bottom="10px">
+                    <a href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero">View Online</a>
+                </mj-text>
+                <mj-image href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/kv-main-male-en.gif" alt="" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column >
+                <mj-text padding="20px 20px 15px" mj-class="h-2">
+                    This is Galaxy as you've never seen before
+                </mj-text>
+                <mj-text padding="0 30px 30px">
+                    Our fastest chip ever puts world-class power in your hands. A battery that goes all day and night. And for the first time ever on Galaxy S Series, a built-in S Pen. Whichever way you look at it, Galaxy S22 Ultra will change your world.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-bottom="25px">
+            <mj-column width="250px" >
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="buy-now btn" >
+                    buy now
+                </mj-button>
+            </mj-column>
+            <mj-column width="250px">
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="btn" >
+                    Explore in 360°
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#BD3A54" padding-top="40px" padding-bottom="40px">
+            <mj-column>
+                <mj-text mj-class="h-2" padding="0px 20px 15px">
+                    Get Galaxy Buds Pro worth AED 739 on us plus a 1-year Microsoft 365 subscription*. Limited time only!
+                </mj-text>
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="btn" >
+                    buy now
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-top="18px">
+            <mj-column >
+                <mj-image padding="0 25px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/kv-microsoft.png?v=2" alt="" />
+            </mj-column>
+            <mj-column>
+                <mj-text css-class="text-center" align="left" mj-class="h-2" padding="20px 20px 15px">
+                    Exclusively for you
+                </mj-text>
+                <mj-text css-class="text-center" align="left" padding="0 20px 30px">
+                    Enjoy a whole year of the full suite of Microsoft 365 premium office apps. One convenient subscription includes premium Office apps, 1 TB of cloud storage, and advanced security for all your devices*.
+                </mj-text>
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="text-center btn" align="left" padding-left="15px" padding-right="15px" padding-bottom="20px">
+                    check this out
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section direction="rtl">
+            <mj-column padding="0 25px" >
+                <mj-raw>
+                    <img src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/kv-spen.jpg?v=2" width="100%" />
+                </mj-raw>
+            </mj-column>
+            <mj-column>
+                <mj-text css-class="text-center" align="left" mj-class="h-2" padding="50px 20px 15px">
+                    A Galaxy S Series first
+                </mj-text>
+                <mj-text css-class="text-center" align="left" padding="0 20px 30px">
+                    Take notes. Sketch an idea. S Pen is on Galaxy S Series, and it's a game-changer.
+                </mj-text>
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="text-center btn" align="left" padding-left="15px" padding-right="15px" padding-bottom="20px">
+                    check this out
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-bottom="20px">
+            <mj-column >
+                <mj-image width="420px" padding="20px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/kv-battery.png" alt="" />
+                <mj-text padding="0px 20px 15px" mj-class="h-2">
+                    A battery you can rely on
+                </mj-text>
+                <mj-text padding="0px 30px 30px">
+                    Enhanced AI takes 5000mAh (typical) of power from one day into the next, intelligently adapting to the way you use your phone.
+                </mj-text>
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="btn">
+                    Discover battery
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-top="40px" padding-bottom="20px">
+            <mj-column vertical-align="middle">
+                <mj-image src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/kv-m8.jpg" alt="" />
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-text css-class="text-center" padding="20px 20px 15px" mj-class="h-2" align="left">
+                    Be the first to own our Smart Monitor M8
+                </mj-text>
+                <mj-text css-class="text-center" padding="0 20px 30px" align="left">
+                    With the Samsung Smart Monitor M8, you can watch, work and chat without connecting a separate PC. Pre-order now for extras worth up to AED 1,007∇ including 5X Samsung Rewards points.
+                </mj-text>
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="text-center btn" padding="0 15px 20px" align="left">
+                    Pre-order now
+                </mj-button>
+                <mj-button href="https://www.samsung.com/ae/smartphones/galaxy-s22-ultra/buy/?cid=ae_owned_email_edmmkt_galaxy-s22_laun_f1h22-1021_image_none_mhot_na_w3_h_en_uae_na_na&utm_source=CRM&utm_medium=email&utm_campaign=f1h22-galaxy-s22&utm_term=mhot&utm_content=na_hero" css-class="text-center btn" padding="0 15px 20px" align="left">
+                    Discover more
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column >
+                <mj-text padding="0 20px 15px" mj-class="h-1">
+                    Only at <a href="https://samsung.com">samsung.com</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 30px 0">
+            <mj-group>
+                <mj-column>
+                    <mj-image src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/icon-estore-care-dark.png" alt="" />
+                    <mj-text padding="0px 10px 25px" align="center">
+                        Accidental damage coverage
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/icon-estore-trade-dark.png" alt="" />
+                    <mj-text padding="0px 10px 25px">
+                        Trade in up to 3 devices, even those with cracked screens
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            <mj-group>
+                <mj-column>
+                    <mj-image src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/icon-estore-rewards-dark.png" alt="" />
+                    <mj-text padding="0px 10px 25px">
+                        Purchase and earn points for future shopping
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/icon-estore-installment-dark.png" alt="" />
+                    <mj-text padding="0px 10px 25px">
+                        Buy now. Pay over
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/break-dark.png" alt="" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-top="30px" padding-bottom="15px" direction="rtl">
+            <mj-column css-class="icons-padding" padding-left="50px">
+                <mj-text css-class="icons">
+                    <a style="display: inline-block;"  href="https://samsung.com"><img width="34px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/footer-wa-dark.png" alt=""></a>
+                    <a style="display: inline-block; padding-left: 5px;"  href="https://samsung.com"><img width="34px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/footer-fb-dark.png" alt=""></a>
+                    <a style="display: inline-block; padding-left: 5px;"  href="https://samsung.com"><img width="34px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/footer-tw-dark.png" alt=""></a>
+                    <a style="display: inline-block; padding-left: 5px;"  href="https://samsung.com"><img width="34px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/footer-yt-dark.png" alt=""></a>
+                    <a style="display: inline-block; padding-left: 5px;"  href="https://samsung.com"><img width="34px" src="https://samsung-crm.com/mena/SGE/2022/8900-rainbow-launch-w3/footer-instagram-dark.png" alt=""></a>
+                </mj-text>
+            </mj-column>
+
+            <mj-column width="300px" css-class="column-300">
+            <mj-text css-class="footer-text footer-nowrap" padding-left="10px" mj-class="footer-text" align="left">
+                <span style="white-space: nowrap;">© Copyright 2022 Samsung Gulf Electronics Ltd. All rights reserved.</span> 
+            </mj-text>
+
+            <mj-text css-class="footer-text" padding-left="10px" mj-class="footer-text" align="left">
+                <a href="https://samsung.com"><font color="#999999">Contact us</font></a> | <a href="https://samsung.com"><font color="#999999">Privacy</font></a> | <a href="https://samsung.com"><font color="#999999">Legal</font></a>
+            </mj-text>
+                
+            <mj-text css-class="footer-text" padding-left="10px" mj-class="footer-text" align="left">
+                Please do not reply to this email – this address isn't monitored.
+            </mj-text>
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text padding="0px 10px 15px" mj-class="footer-text" align="left" css-class="footer-text" >
+                    Samsung Gulf Electronics, Butterfly Building Tower A, Albourooj Street – Dubai Media City, Dubai, United Arab Emirates P.O. Box 500047.
+                </mj-text>
+                <mj-text css-class="footer-text" padding="0px 10px 15px" mj-class="footer-text" align="left">
+                    You must be of legal age under applicable local laws to receive this communication. This email has been sent to members who have requested to join the mailing list. If you prefer not to receive email updates, <a style="text-decoration: underline;" href="https://samsung.com"><font  color="#999999">unsubscribe</font></a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
